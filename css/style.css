@@ -71,6 +71,11 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
+.box-1 {
+  font-family: monospace;
+}
+
 .content{
   font-family: 'Roboto'
 }
