@@ -1,0 +1,76 @@
+body {
+      background-color: black ;
+      font-family:'Oxygen';
+      color:white;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 1.6em;
+      margin:0;
+      }
+
+h1 {
+    font-family: 'Oxygen';
+    font-size: 35px;
+    color:#c8ff00;
+    }
+
+p {
+    font-family: 'Oxygen';
+    font-size:20px;
+    line-height: 1.6em
+    color: silver;
+    }
+
+ul {
+    list-style-type: none;
+    font-family: 'Delius'
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+    background-color: #c8ff00;
+    }
+
+  .active {
+    background-color: #00fff8;
+    }
+
+
+/*Profile & Dashboard table*/
+
+
+.container{
+  background-color:#c8ff00;
+  color:black;
+  font-size: 18px;
+  font-family:'Roboto';
+  width:70%;
+	margin:auto;
+  }
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+.content{
+  font-family: 'Roboto'
+}
